@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="Code - OSS"> <action name="Execute">
+                <execute>code-oss</execute>
+            </action> </item>
+            <item label="Electron 28"> <action name="Execute">
+                <execute>electron28</execute>
+            </action> </item>
+            <item label="Fluid"> <action name="Execute">
+                <execute>fluid</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>qterminal -e python</execute>
+            </action> </item>
+            <item label="Qt Assistant"> <action name="Execute">
+                <execute>assistant</execute>
+            </action> </item>
+            <item label="Qt Designer"> <action name="Execute">
+                <execute>designer</execute>
+            </action> </item>
+            <item label="Qt Linguist"> <action name="Execute">
+                <execute>linguist</execute>
+            </action> </item>
+            <item label="Qt QDBusViewer"> <action name="Execute">
+                <execute>qdbusviewer</execute>
+            </action> </item>
+            <item label="Tclsh8.6"> <action name="Execute">
+                <execute>qterminal -e tclsh8.6</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="AA Fire"> <action name="Execute">
+                <execute>qterminal -e aafire -driver slang</execute>
+            </action> </item>
+            <item label="gedit"> <action name="Execute">
+                <execute>gedit</execute>
+            </action> </item>
+            <item label="Nano"> <action name="Execute">
+                <execute>qterminal -e nano</execute>
+            </action> </item>
+            <item label="Pluma"> <action name="Execute">
+                <execute>pluma</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="9" label="Adventure">
+                <item label="OpenMW Content Editor"> <action name="Execute">
+                    <execute>openmw-cs</execute>
+                </action> </item>
+                <item label="OpenMW Launcher"> <action name="Execute">
+                    <execute>openmw-launcher</execute>
+                </action> </item>
+                <item label="Sclient"> <action name="Execute">
+                    <execute>sclient</execute>
+                </action> </item>
+            </menu>
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+            <item label="RetroArch"> <action name="Execute">
+                <execute>retroarch</execute>
+            </action> </item>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="Aseprite"> <action name="Execute">
+                <execute>aseprite</execute>
+            </action> </item>
+            <item label="Eye of MATE Image Viewer"> <action name="Execute">
+                <execute>eom</execute>
+            </action> </item>
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="Gpick"> <action name="Execute">
+                <execute>gpick</execute>
+            </action> </item>
+            <item label="GraphicsMagick"> <action name="Execute">
+                <execute>gm display logo:</execute>
+            </action> </item>
+            <item label="Inkscape"> <action name="Execute">
+                <execute>inkscape</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+            <item label="LXImage-Qt"> <action name="Execute">
+                <execute>lximage-qt</execute>
+            </action> </item>
+            <item label="MATE Color Selection"> <action name="Execute">
+                <execute>mate-color-select</execute>
+            </action> </item>
+            <item label="mtPaint"> <action name="Execute">
+                <execute>mtpaint</execute>
+            </action> </item>
+            <item label="Ristretto Image Viewer"> <action name="Execute">
+                <execute>ristretto</execute>
+            </action> </item>
+            <item label="ScreenGrab"> <action name="Execute">
+                <execute>screengrab</execute>
+            </action> </item>
+            <item label="Scribus"> <action name="Execute">
+                <execute>scribus</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+            <item label="Tiled"> <action name="Execute">
+                <execute>tiled</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>qterminal -e alsamixer</execute>
+            </action> </item>
+            <item label="amsynth"> <action name="Execute">
+                <execute>amsynth</execute>
+            </action> </item>
+            <item label="Audacity"> <action name="Execute">
+                <execute>audacity</execute>
+            </action> </item>
+            <item label="Audacity"> <action name="Execute">
+                <execute>env GDK_BACKEND=x11 UBUNTU_MENUPROXY=0 audacity</execute>
+            </action> </item>
+            <item label="Drumstick ALSA MIDI Player"> <action name="Execute">
+                <execute>drumstick-guiplayer</execute>
+            </action> </item>
+            <item label="Drumstick Drum Grid"> <action name="Execute">
+                <execute>drumstick-drumgrid</execute>
+            </action> </item>
+            <item label="Drumstick Virtual Piano"> <action name="Execute">
+                <execute>drumstick-vpiano</execute>
+            </action> </item>
+            <item label="LMMS"> <action name="Execute">
+                <execute>lmms</execute>
+            </action> </item>
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol-qt</execute>
+            </action> </item>
+            <item label="QjackCtl"> <action name="Execute">
+                <execute>qjackctl</execute>
+            </action> </item>
+            <item label="qpwgraph"> <action name="Execute">
+                <execute>qpwgraph</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+            </action> </item>
+            <item label="Shotcut"> <action name="Execute">
+                <execute>shotcut</execute>
+            </action> </item>
+            <item label="Sound"> <action name="Execute">
+                <execute>mate-volume-control</execute>
+            </action> </item>
+            <item label="Strawberry"> <action name="Execute">
+                <execute>strawberry</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>vlc</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>qvlc</execute>
+            </action> </item>
+            <item label="VMPK"> <action name="Execute">
+                <execute>vmpk</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="Chromium"> <action name="Execute">
+                <execute>chromium</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="Google Chrome"> <action name="Execute">
+                <execute>google-chrome-stable</execute>
+            </action> </item>
+            <item label="KDE Connect"> <action name="Execute">
+                <execute>kdeconnect-app</execute>
+            </action> </item>
+            <item label="KDE Connect Indicator"> <action name="Execute">
+                <execute>kdeconnect-indicator</execute>
+            </action> </item>
+            <item label="KDE Connect SMS"> <action name="Execute">
+                <execute>kdeconnect-sms</execute>
+            </action> </item>
+            <item label="Links"> <action name="Execute">
+                <execute>qterminal -e links</execute>
+            </action> </item>
+            <item label="Links"> <action name="Execute">
+                <execute>xlinks -g</execute>
+            </action> </item>
+            <item label="Thunderbird"> <action name="Execute">
+                <execute>thunderbird</execute>
+            </action> </item>
+            <item label="Transmission"> <action name="Execute">
+                <execute>transmission-gtk</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="Atril Document Viewer"> <action name="Execute">
+                <execute>atril</execute>
+            </action> </item>
+            <item label="Document Viewer"> <action name="Execute">
+                <execute>evince</execute>
+            </action> </item>
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+            <item label="MATE Dictionary"> <action name="Execute">
+                <execute>mate-dictionary</execute>
+            </action> </item>
+            <item label="PDF Arranger"> <action name="Execute">
+                <execute>pdfarranger</execute>
+            </action> </item>
+        </menu>
+        <menu id="39" label="Other">
+            <item label="Help"> <action name="Execute">
+                <execute>yelp help:mate-user-guide</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="KiCad"> <action name="Execute">
+                <execute>kicad</execute>
+            </action> </item>
+            <item label="KiCad Gerber Viewer"> <action name="Execute">
+                <execute>gerbview</execute>
+            </action> </item>
+            <item label="KiCad Image Converter"> <action name="Execute">
+                <execute>bitmap2component</execute>
+            </action> </item>
+            <item label="KiCad PCB Calculator"> <action name="Execute">
+                <execute>pcb_calculator</execute>
+            </action> </item>
+            <item label="KiCad PCB Editor (Standalone)"> <action name="Execute">
+                <execute>pcbnew</execute>
+            </action> </item>
+            <item label="KiCad Schematic Editor (Standalone)"> <action name="Execute">
+                <execute>eeschema</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="GIT"> <action name="Execute">
+                <execute>qterminal -e git</execute>
+            </action> </item>
+            <item label="MATE Terminal"> <action name="Execute">
+                <execute>mate-terminal</execute>
+            </action> </item>
+            <item label="Oracle VM VirtualBox"> <action name="Execute">
+                <execute>VirtualBox</execute>
+            </action> </item>
+            <item label="PCManFM-Qt File Manager"> <action name="Execute">
+                <execute>pcmanfm-qt</execute>
+            </action> </item>
+            <item label="QTerminal"> <action name="Execute">
+                <execute>qterminal</execute>
+            </action> </item>
+            <item label="QTerminal drop down"> <action name="Execute">
+                <execute>qterminal --drop</execute>
+            </action> </item>
+            <item label="Thunar File Manager"> <action name="Execute">
+                <execute>thunar</execute>
+            </action> </item>
+            <item label="Tilix"> <action name="Execute">
+                <execute>tilix</execute>
+            </action> </item>
+            <item label="VirtualBox"> <action name="Execute">
+                <execute>virtualbox</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Advanced Network Configuration"> <action name="Execute">
+                        <execute>nm-connection-editor</execute>
+                    </action> </item>
+                    <item label="Bluetooth Manager"> <action name="Execute">
+                        <execute>blueman-manager</execute>
+                    </action> </item>
+                </menu>
+                <menu id="35" label="Xfce">
+                    <item label="Bluetooth Adapters"> <action name="Execute">
+                        <execute>blueman-adapters</execute>
+                    </action> </item>
+                </menu>
+                <item label="About Me"> <action name="Execute">
+                    <execute>mate-about-me</execute>
+                </action> </item>
+                <item label="Appearance"> <action name="Execute">
+                    <execute>lxqt-config-appearance</execute>
+                </action> </item>
+                <item label="Appearance"> <action name="Execute">
+                    <execute>mate-appearance-properties</execute>
+                </action> </item>
+                <item label="Assistive Technologies"> <action name="Execute">
+                    <execute>mate-at-properties</execute>
+                </action> </item>
+                <item label="Brightness"> <action name="Execute">
+                    <execute>lxqt-config-brightness</execute>
+                </action> </item>
+                <item label="Caja-Actions Configuration Tool"> <action name="Execute">
+                    <execute>caja-actions-config-tool</execute>
+                </action> </item>
+                <item label="Control Center"> <action name="Execute">
+                    <execute>mate-control-center</execute>
+                </action> </item>
+                <item label="Cosmos"> <action name="Execute">
+                    <execute>/usr/lib/mate-screensaver/mate-screensaver/slideshow --location=/usr/share/backgrounds/cosmos</execute>
+                </action> </item>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Date and Time"> <action name="Execute">
+                    <execute>lxqt-admin-time</execute>
+                </action> </item>
+                <item label="Default applications for LXSession"> <action name="Execute">
+                    <execute>lxsession-default-apps</execute>
+                </action> </item>
+                <item label="Desktop"> <action name="Execute">
+                    <execute>pcmanfm-qt --desktop-pref=general</execute>
+                </action> </item>
+                <item label="Desktop Notifications"> <action name="Execute">
+                    <execute>lxqt-config-notificationd</execute>
+                </action> </item>
+                <item label="Desktop Session Settings"> <action name="Execute">
+                    <execute>lxsession-edit</execute>
+                </action> </item>
+                <item label="Displays"> <action name="Execute">
+                    <execute>mate-display-properties</execute>
+                </action> </item>
+                <item label="File Associations"> <action name="Execute">
+                    <execute>lxqt-config-file-associations</execute>
+                </action> </item>
+                <item label="File Management"> <action name="Execute">
+                    <execute>caja-file-management-properties</execute>
+                </action> </item>
+                <item label="File Manager Settings"> <action name="Execute">
+                    <execute>thunar-settings</execute>
+                </action> </item>
+                <item label="Floating GNOME"> <action name="Execute">
+                    <execute>/usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg</execute>
+                </action> </item>
+                <item label="Floating MATE"> <action name="Execute">
+                    <execute>/usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg</execute>
+                </action> </item>
+                <item label="IBus Preferences"> <action name="Execute">
+                    <execute>ibus-setup</execute>
+                </action> </item>
+                <item label="KDE Connect Settings"> <action name="Execute">
+                    <execute>kdeconnect-settings</execute>
+                </action> </item>
+                <item label="Keyboard"> <action name="Execute">
+                    <execute>mate-keyboard-properties</execute>
+                </action> </item>
+                <item label="Keyboard and Mouse"> <action name="Execute">
+                    <execute>lxqt-config-input</execute>
+                </action> </item>
+                <item label="Keyboard Shortcuts"> <action name="Execute">
+                    <execute>mate-keybinding-properties</execute>
+                </action> </item>
+                <item label="Kvantum Manager"> <action name="Execute">
+                    <execute>kvantummanager</execute>
+                </action> </item>
+                <item label="Locale"> <action name="Execute">
+                    <execute>lxqt-config-locale</execute>
+                </action> </item>
+                <item label="Lock Screen"> <action name="Execute">
+                    <execute>lxqt-leave --lockscreen</execute>
+                </action> </item>
+                <item label="LXQt Configuration Center"> <action name="Execute">
+                    <execute>lxqt-config</execute>
+                </action> </item>
+                <item label="Main Menu"> <action name="Execute">
+                    <execute>mozo</execute>
+                </action> </item>
+                <item label="Monitor settings"> <action name="Execute">
+                    <execute>lxqt-config-monitor</execute>
+                </action> </item>
+                <item label="Mouse"> <action name="Execute">
+                    <execute>mate-mouse-properties</execute>
+                </action> </item>
+                <item label="Network Proxy"> <action name="Execute">
+                    <execute>mate-network-properties</execute>
+                </action> </item>
+                <item label="nitrogen"> <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action> </item>
+                <item label="Openbox Settings"> <action name="Execute">
+                    <execute>obconf-qt</execute>
+                </action> </item>
+                <item label="Panel"> <action name="Execute">
+                    <execute>xfce4-panel --preferences</execute>
+                </action> </item>
+                <item label="Personal File Sharing"> <action name="Execute">
+                    <execute>mate-file-share-properties</execute>
+                </action> </item>
+                <item label="Pictures folder"> <action name="Execute">
+                    <execute>/usr/lib/mate-screensaver/mate-screensaver/slideshow</execute>
+                </action> </item>
+                <item label="Pop art squares"> <action name="Execute">
+                    <execute>/usr/lib/mate-screensaver/mate-screensaver/popsquares</execute>
+                </action> </item>
+                <item label="Popup Notifications"> <action name="Execute">
+                    <execute>mate-notification-properties</execute>
+                </action> </item>
+                <item label="Power Management"> <action name="Execute">
+                    <execute>mate-power-preferences</execute>
+                </action> </item>
+                <item label="Power Management"> <action name="Execute">
+                    <execute>lxqt-config-powermanagement</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>mate-default-applications-properties</execute>
+                </action> </item>
+                <item label="Removable Drives and Media"> <action name="Execute">
+                    <execute>thunar-volman-settings</execute>
+                </action> </item>
+                <item label="Screensaver"> <action name="Execute">
+                    <execute>mate-screensaver-preferences</execute>
+                </action> </item>
+                <item label="Session Settings"> <action name="Execute">
+                    <execute>lxqt-config-session</execute>
+                </action> </item>
+                <item label="Shortcut Keys"> <action name="Execute">
+                    <execute>lxqt-config-globalkeyshortcuts</execute>
+                </action> </item>
+                <item label="Startup Applications"> <action name="Execute">
+                    <execute>mate-session-properties</execute>
+                </action> </item>
+                <item label="system-info"> <action name="Execute">
+                    <execute>mate-system-info</execute>
+                </action> </item>
+                <item label="Time And Date Manager"> <action name="Execute">
+                    <execute>mate-time-admin</execute>
+                </action> </item>
+                <item label="Users and Groups"> <action name="Execute">
+                    <execute>lxqt-admin-user</execute>
+                </action> </item>
+                <item label="Windows"> <action name="Execute">
+                    <execute>mate-window-properties</execute>
+                </action> </item>
+            </menu>
+            <item label="About LXQt"> <action name="Execute">
+                <execute>lxqt-about</execute>
+            </action> </item>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="Caja"> <action name="Execute">
+                <execute>caja --no-desktop</execute>
+            </action> </item>
+            <item label="dconf Editor"> <action name="Execute">
+                <execute>dconf-editor</execute>
+            </action> </item>
+            <item label="Disk Usage Analyzer"> <action name="Execute">
+                <execute>baobab</execute>
+            </action> </item>
+            <item label="GParted"> <action name="Execute">
+                <execute>gparted</execute>
+            </action> </item>
+            <item label="Hardware Locality lstopo"> <action name="Execute">
+                <execute>lstopo</execute>
+            </action> </item>
+            <item label="Hibernate"> <action name="Execute">
+                <execute>lxqt-leave --hibernate</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>qterminal -e htop</execute>
+            </action> </item>
+            <item label="ISO Image Writer"> <action name="Execute">
+                <execute>isoimagewriter</execute>
+            </action> </item>
+            <item label="Leave"> <action name="Execute">
+                <execute>lxqt-leave</execute>
+            </action> </item>
+            <item label="Log File Viewer"> <action name="Execute">
+                <execute>mate-system-log</execute>
+            </action> </item>
+            <item label="Logout"> <action name="Execute">
+                <execute>lxqt-leave --logout</execute>
+            </action> </item>
+            <item label="MATE Disk Image Mounter"> <action name="Execute">
+                <execute>mate-disk-image-mounter</execute>
+            </action> </item>
+            <item label="MATE Disk Usage Analyzer"> <action name="Execute">
+                <execute>mate-disk-usage-analyzer</execute>
+            </action> </item>
+            <item label="MATE System Monitor"> <action name="Execute">
+                <execute>mate-system-monitor</execute>
+            </action> </item>
+            <item label="OpenJDK Java 11 Console"> <action name="Execute">
+                <execute>jconsole</execute>
+            </action> </item>
+            <item label="OpenJDK Java 11 Shell"> <action name="Execute">
+                <execute>qterminal -e jshell</execute>
+            </action> </item>
+            <item label="Power Statistics"> <action name="Execute">
+                <execute>mate-power-statistics</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>qterminal -e pstree</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>qterminal -e pstree.x11</execute>
+            </action> </item>
+            <item label="qps"> <action name="Execute">
+                <execute>qps</execute>
+            </action> </item>
+            <item label="Reboot"> <action name="Execute">
+                <execute>lxqt-leave --reboot</execute>
+            </action> </item>
+            <item label="Shutdown"> <action name="Execute">
+                <execute>lxqt-leave --shutdown</execute>
+            </action> </item>
+            <item label="Suspend"> <action name="Execute">
+                <execute>lxqt-leave --suspend</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>qterminal -e top</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+                <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Engrampa Archive Manager"> <action name="Execute">
+                <execute>engrampa</execute>
+            </action> </item>
+            <item label="Galculator"> <action name="Execute">
+                <execute>galculator</execute>
+            </action> </item>
+            <item label="Help"> <action name="Execute">
+                <execute>yelp</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>qterminal -e info</execute>
+            </action> </item>
+            <item label="LXQt File Archiver"> <action name="Execute">
+                <execute>lxqt-archiver</execute>
+            </action> </item>
+            <item label="MATE Calculator"> <action name="Execute">
+                <execute>mate-calc</execute>
+            </action> </item>
+            <item label="MATE Font Viewer"> <action name="Execute">
+                <execute>mate-font-viewer</execute>
+            </action> </item>
+            <item label="MATE Search Tool"> <action name="Execute">
+                <execute>mate-search-tool</execute>
+            </action> </item>
+            <item label="picom"> <action name="Execute">
+                <execute>picom</execute>
+            </action> </item>
+            <item label="Redshift"> <action name="Execute">
+                <execute>redshift-gtk</execute>
+            </action> </item>
+            <item label="Take Screenshot"> <action name="Execute">
+                <execute>mate-screenshot --interactive</execute>
+            </action> </item>
+            <item label="Xev"> <action name="Execute">
+                <execute>qterminal -e xev</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>

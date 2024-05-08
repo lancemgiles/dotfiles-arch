@@ -1,0 +1,10 @@
+$HOME/.config/polybar/launch.sh & 
+nitrogen --restore &
+nm-applet &
+/sbin/lxpolkit &
+ibus-daemon -rxRd &
+mate-power-manager &
+thunar --daemon &
+udiskie &
+picom -b &
+touchegg &
