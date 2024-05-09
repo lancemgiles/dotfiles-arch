@@ -8,3 +8,4 @@ thunar --daemon &
 udiskie &
 picom -b &
 touchegg &
+/usr/lib/kdeconnectd &

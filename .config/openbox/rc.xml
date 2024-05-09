@@ -488,6 +488,11 @@
         <command>strawberry</command>
       </action>
     </keybind>
+  <keybind key="Print">
+      <action name="Execute">
+        <command>scrot -bs /home/grz/Screenshots/screen_%Y-%m-%d_%H:%M:%S`.png</command>
+      </action>
+    </keybind>
     <!-- <keybind key="W-Left">        # HalfLeftScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>0</x><y>0</y><height>97%</height><width>50%</width></action>
