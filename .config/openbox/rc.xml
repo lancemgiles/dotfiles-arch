@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>oomox-murasaki</name>
+    <name>oomox-giugno-duce</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -488,9 +488,14 @@
         <command>strawberry</command>
       </action>
     </keybind>
-  <keybind key="Print">
+    <keybind key="C-Print">
       <action name="Execute">
         <command>scrot -bs /home/grz/Screenshots/screen_%Y-%m-%d_%H:%M:%S`.png</command>
+      </action>
+    </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>scrot /home/grz/Screenshots/screen_%Y-%m-%d_%H:%M:%S`.png</command>
       </action>
     </keybind>
     <!-- <keybind key="W-Left">        # HalfLeftScreen
@@ -582,7 +587,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action name="ToggleMaximizeFull"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">
